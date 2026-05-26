@@ -111,20 +111,20 @@ const theoryHTML = `
                 <p>Andreea are o familie mare. Hai să o cunoaștem — fiecare cuvânt vine <strong>cu articolul lui</strong> (foarte important, vezi subsecțiunea următoare):</p>
                 <table class="grammar-table">
                     <tr><th>Germană</th><th>Traducere RO</th><th>În familia Andreei</th></tr>
-                    <tr><td><strong>der Vater</strong></td><td>tatăl</td><td><em style="color:#6b7280;">Ion — Ingenieur</em></td></tr>
-                    <tr><td><strong>die Mutter</strong></td><td>mama</td><td><em style="color:#6b7280;">Maria — Lehrerin</em></td></tr>
-                    <tr><td><strong>die Eltern</strong></td><td>părinții</td><td><em style="color:#6b7280;">Ion und Maria</em></td></tr>
-                    <tr><td><strong>der Bruder</strong></td><td>fratele</td><td><em style="color:#6b7280;">Andrei — Student</em></td></tr>
-                    <tr><td><strong>die Schwester</strong></td><td>sora</td><td><em style="color:#6b7280;">Elena — Ärztin</em></td></tr>
-                    <tr><td><strong>die Geschwister</strong></td><td>frații (și surorile)</td><td><em style="color:#6b7280;">Andrei und Elena</em></td></tr>
-                    <tr><td><strong>der Großvater (der Opa)</strong></td><td>bunicul</td><td><em style="color:#6b7280;">Gheorghe</em></td></tr>
-                    <tr><td><strong>die Großmutter (die Oma)</strong></td><td>bunica</td><td><em style="color:#6b7280;">Veronica</em></td></tr>
-                    <tr><td><strong>die Großeltern</strong></td><td>bunicii</td><td><em style="color:#6b7280;">Gheorghe und Veronica</em></td></tr>
-                    <tr><td><strong>der Onkel</strong></td><td>unchiul</td><td><em style="color:#6b7280;">Vasile</em></td></tr>
-                    <tr><td><strong>die Tante</strong></td><td>mătușa</td><td><em style="color:#6b7280;">Ana</em></td></tr>
-                    <tr><td><strong>das Kind</strong></td><td>copilul</td><td><em style="color:#6b7280;">Andreea ist das Kind von Ion und Maria</em></td></tr>
-                    <tr><td><strong>der Sohn</strong></td><td>fiul</td><td><em style="color:#6b7280;">Andrei ist der Sohn</em></td></tr>
-                    <tr><td><strong>die Tochter</strong></td><td>fiica</td><td><em style="color:#6b7280;">Andreea ist die Tochter</em></td></tr>
+                    <tr><td><strong>der Vater · die Väter</strong></td><td>tatăl · tații</td><td><em style="color:#6b7280;">Ion — Ingenieur</em></td></tr>
+                    <tr><td><strong>die Mutter · die Mütter</strong></td><td>mama · mamele</td><td><em style="color:#6b7280;">Maria — Lehrerin</em></td></tr>
+                    <tr><td><strong>die Eltern</strong> (substantiv plural tantum — DE: doar plural)</td><td>părinții (fără singular în DE)</td><td><em style="color:#6b7280;">Ion und Maria</em></td></tr>
+                    <tr><td><strong>der Bruder · die Brüder</strong></td><td>fratele · frații</td><td><em style="color:#6b7280;">Andrei — Student</em></td></tr>
+                    <tr><td><strong>die Schwester · die Schwestern</strong></td><td>sora · surorile</td><td><em style="color:#6b7280;">Elena — Ärztin</em></td></tr>
+                    <tr><td><strong>die Geschwister</strong> (substantiv plural tantum)</td><td>frații (și surorile) — DE: fără singular</td><td><em style="color:#6b7280;">Andrei und Elena</em></td></tr>
+                    <tr><td><strong>der Großvater · die Großväter (der Opa · die Opas)</strong></td><td>bunicul · bunicii</td><td><em style="color:#6b7280;">Gheorghe</em></td></tr>
+                    <tr><td><strong>die Großmutter · die Großmütter (die Oma · die Omas)</strong></td><td>bunica · bunicile</td><td><em style="color:#6b7280;">Veronica</em></td></tr>
+                    <tr><td><strong>die Großeltern</strong> (substantiv plural tantum)</td><td>bunicii (fără singular în DE)</td><td><em style="color:#6b7280;">Gheorghe und Veronica</em></td></tr>
+                    <tr><td><strong>der Onkel · die Onkel</strong></td><td>unchiul · unchii</td><td><em style="color:#6b7280;">Vasile</em></td></tr>
+                    <tr><td><strong>die Tante · die Tanten</strong></td><td>mătușa · mătușile</td><td><em style="color:#6b7280;">Ana</em></td></tr>
+                    <tr><td><strong>das Kind · die Kinder</strong></td><td>copilul · copiii</td><td><em style="color:#6b7280;">Andreea ist das Kind von Ion und Maria</em></td></tr>
+                    <tr><td><strong>der Sohn · die Söhne</strong></td><td>fiul · fiii</td><td><em style="color:#6b7280;">Andrei ist der Sohn</em></td></tr>
+                    <tr><td><strong>die Tochter · die Töchter</strong></td><td>fiica · fiicele</td><td><em style="color:#6b7280;">Andreea ist die Tochter</em></td></tr>
                 </table>
             </div>
 
@@ -322,12 +322,12 @@ const theoryHTML = `
                 <p>Aproape orice meserie face femininul adăugând <strong>-in</strong>. Uneori apare și un Umlaut (a → ä, o → ö):</p>
                 <table class="grammar-table">
                     <tr><th>Masculin (der)</th><th>Feminin (die)</th><th>Traducere RO</th></tr>
-                    <tr><td>der Lehrer</td><td>die Lehrer<strong>in</strong></td><td><em style="color:#6b7280;">profesor / profesoară</em></td></tr>
-                    <tr><td>der Student</td><td>die Student<strong>in</strong></td><td><em style="color:#6b7280;">student / studentă</em></td></tr>
-                    <tr><td>der Ingenieur</td><td>die Ingenieur<strong>in</strong></td><td><em style="color:#6b7280;">inginer / ingineră</em></td></tr>
-                    <tr><td>der Mechaniker</td><td>die Mechaniker<strong>in</strong></td><td><em style="color:#6b7280;">mecanic / mecanică</em></td></tr>
-                    <tr><td>der Koch</td><td>die K<strong>ö</strong>ch<strong>in</strong></td><td><em style="color:#6b7280;">bucătar / bucătăreasă (o → ö!)</em></td></tr>
-                    <tr><td>der Arzt</td><td>die <strong>Ä</strong>rzt<strong>in</strong></td><td><em style="color:#6b7280;">medic (a → ä!)</em></td></tr>
+                    <tr><td>der Lehrer · die Lehrer</td><td>die Lehrer<strong>in</strong> · die Lehrerinnen</td><td><em style="color:#6b7280;">profesor · profesori / profesoară · profesoare</em></td></tr>
+                    <tr><td>der Student · die Studenten</td><td>die Student<strong>in</strong> · die Studentinnen</td><td><em style="color:#6b7280;">student · studenți / studentă · studente</em></td></tr>
+                    <tr><td>der Ingenieur · die Ingenieure</td><td>die Ingenieur<strong>in</strong> · die Ingenieurinnen</td><td><em style="color:#6b7280;">inginer · ingineri / ingineră · inginere</em></td></tr>
+                    <tr><td>der Mechaniker · die Mechaniker</td><td>die Mechaniker<strong>in</strong> · die Mechanikerinnen</td><td><em style="color:#6b7280;">mecanic · mecanici / mecanică · mecanice</em></td></tr>
+                    <tr><td>der Koch · die Köche</td><td>die K<strong>ö</strong>ch<strong>in</strong> · die Köchinnen</td><td><em style="color:#6b7280;">bucătar · bucătari / bucătăreasă · bucătărese (o → ö!)</em></td></tr>
+                    <tr><td>der Arzt · die Ärzte</td><td>die <strong>Ä</strong>rzt<strong>in</strong> · die Ärztinnen</td><td><em style="color:#6b7280;">doctor · doctori / doctoriță · doctorițe (a → ä!)</em></td></tr>
                 </table>
             </div>
 
